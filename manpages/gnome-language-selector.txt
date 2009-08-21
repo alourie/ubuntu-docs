@@ -12,11 +12,12 @@ Description
 
 Options
 
- 	-h, --help      show this help message and exit
-	-n, --no-verify-installed-lang-support
-			don't verify installed language support
-	-d DATADIR, --datadir=DATADIR
-                        alternative data directory
+ 	-h or --help
+		show this help message and exit
+	-n or --no-verify-installed-lang-support
+		don't verify installed language support
+	-d DATADIR or --datadir=DATADIR
+                alternative data directory
 
 
 Author

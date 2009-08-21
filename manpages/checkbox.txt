@@ -12,13 +12,16 @@ Description
 
 Options
 
-	-h, --help            Print short usage information (this) on the screen and exit.
-	--version             Print version information and exit.
-	-l FILE, --log=FILE   The file to write the collected information to.
+	-h or --help
+		Print short usage information (this) on the screen and exit.
+	--version
+		Print version information and exit.
+	-l FILE or --log=FILE
+		The file to write the collected information to.
 	--log-level=LOG_LEVEL
-			      Set log level. It can have a one of debug, info, warning, error or critical values.
-	-c CONFIG, --config=CONFIG
-			      Configuration override parameters.
+	        Set log level. It can have a one of debug, info, warning, error or critical values.
+	-c CONFIG or --config=CONFIG
+                Configuration override parameters.
 
 Authors
 

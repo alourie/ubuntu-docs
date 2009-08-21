@@ -1,0 +1,54 @@
+Name
+
+	gnome-appearance-properties - a GUI utility for customizing look and feel of Gnome Desktop.	
+
+Synopsis
+
+	gnome-appearance-properties [options] [wallpaper]
+
+Description
+
+	gnome-appearance-properties is a GUI preference tool, that lets you to configure various aspects of how your desktop looks, including Themes, Backgrounds, Fonts, Icons, Interfaces and Effects.
+
+Options
+
+	Help Options:
+	  -h or --help
+	  	Show these help options and exit
+	  --help-all
+	  	Show all help options and exit
+	  --help-gtk
+	  	Show GTK+ Options and exit
+
+	GTK+ Options:
+	  --class=CLASS                    
+	  	Program class as used by the window manager
+	  --name=NAME                      
+	  	Program name as used by the window manager
+	  --screen=SCREEN      
+	  	X screen to use
+	  --gdk-debug=FLAGS 
+	  	Gdk debugging flags to set
+	  --gdk-no-debug=FLAGS             
+	  	Gdk debugging flags to unset
+	  --sync                           
+	  	Make X calls synchronous
+	  --gtk-module=MODULES             
+	  	Load additional GTK+ modules
+	  --g-fatal-warnings               
+	  	Make all warnings fatal
+	  --gtk-debug=FLAGS                
+	  	GTK+ debugging flags to set
+	  --gtk-no-debug=FLAGS             
+	  	GTK+ debugging flags to unset
+
+	Application Options:
+	  -i or --install-theme=filename
+	  	Specify the filename of a theme to install
+	  -p or --show-page=page             
+	  	Specify the name of the page to show (theme|background|fonts|interface)
+	  --display=DISPLAY                
+	  	X display to use
+Author
+	This manpage has been written by Alex Lourie <>
+
