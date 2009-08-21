@@ -1,0 +1,24 @@
+Name
+
+	gnome-language-selector - Graphical language selection utility
+
+Synopsis
+
+	gnome-language-selector [options]
+
+Description
+
+	gnome-language-selector is a GUI utility that allows a user to set a default language for the system interface and to add additional language packs, spelling tools and additional fonts.
+
+Options
+
+ 	-h, --help      show this help message and exit
+	-n, --no-verify-installed-lang-support
+			don't verify installed language support
+	-d DATADIR, --datadir=DATADIR
+                        alternative data directory
+
+
+Author
+	This manpage has been written by Alex Lourie <>
+
