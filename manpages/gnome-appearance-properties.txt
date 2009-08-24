@@ -1,54 +1,26 @@
-Name
-
-	gnome-appearance-properties - a GUI utility for customizing look and feel of Gnome Desktop.	
-
-Synopsis
-
-	gnome-appearance-properties [options] [wallpaper]
-
-Description
-
-	gnome-appearance-properties is a GUI preference tool, that lets you to configure various aspects of how your desktop looks, including Themes, Backgrounds, Fonts, Icons, Interfaces and Effects.
-
-Options
-
-	Help Options:
-	  -h or --help
-	  	Show these help options and exit
-	  --help-all
-	  	Show all help options and exit
-	  --help-gtk
-	  	Show GTK+ Options and exit
-
-	GTK+ Options:
-	  --class=CLASS                    
-	  	Program class as used by the window manager
-	  --name=NAME                      
-	  	Program name as used by the window manager
-	  --screen=SCREEN      
-	  	X screen to use
-	  --gdk-debug=FLAGS 
-	  	Gdk debugging flags to set
-	  --gdk-no-debug=FLAGS             
-	  	Gdk debugging flags to unset
-	  --sync                           
-	  	Make X calls synchronous
-	  --gtk-module=MODULES             
-	  	Load additional GTK+ modules
-	  --g-fatal-warnings               
-	  	Make all warnings fatal
-	  --gtk-debug=FLAGS                
-	  	GTK+ debugging flags to set
-	  --gtk-no-debug=FLAGS             
-	  	GTK+ debugging flags to unset
-
-	Application Options:
-	  -i or --install-theme=filename
-	  	Specify the filename of a theme to install
-	  -p or --show-page=page             
-	  	Specify the name of the page to show (theme|background|fonts|interface)
-	  --display=DISPLAY                
-	  	X display to use
-Author
-	This manpage has been written by Alex Lourie <>
+.TH gnome-appearance-properties 1 "August 24, 2009" "version 0.1"
+.SH NAME
+gnome\-appearance\-properties \- a graphical application for customizing the look and feel of the Gnome Desktop.
+.SH SYNOPSIS
+.B gnome\-appearance\-properties [options] [wallpaper]
+.SH DESCRIPTION
+gnome\-appearance\-properties is a graphical preferences tool, that lets you to configure various aspects of how your desktop looks, including Themes, Backgrounds, Fonts, Icons, Interfaces and Effects.
+.SH OPTIONS
+Help Options:
+.TP
+.B \-h or \-\-help
+Show these help options and exit
+.PP
+Application Options:
+.TP
+.B \-i or \-\-install\-theme=filename
+Specify the filename of a theme to install
+.TP
+.B \-p or \-\-show\-page=page             
+Specify the name of the page to show (theme|background|fonts|interface)
+.TP
+.B \-\-display=DISPLAY                
+X display to use
+.SH AUTHORS
+This manpage has been written by Alex Lourie (djay.il (at) gmail.com)
 

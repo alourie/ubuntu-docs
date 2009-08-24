@@ -1,28 +1,25 @@
-Name
-
-	checkbox-gtk - graphical application for testing and collecting system information
-
-Synopsis
-
-	checkbox-gtk [options]
-
-Description
-
-	checkbox-gtk is an extensible graphical interface application for system testing. It tests the system, collects information and the results can then be sent to Launchpad.
-
-Options
-
-	-h or --help
-		Print short usage information (this) on the screen and exit.
-	--version
-		Print version information and exit.
-	-l FILE or --log=FILE
-		The file to write the collected information to.
-	--log-level=LOG_LEVEL
-	        Set log level. It can have a one of debug, info, warning, error or critical values.
-	-c CONFIG or --config=CONFIG
-                Configuration override parameters.
-
-Authors
-
-	This manpage has been written by Alex Lourie <>
+.TH checkbox-gtk 1 "August 24, 2009" "version 0.1"
+.SH NAME
+checkbox-gtk - graphical tool for testing and collecting hardware information
+.SH SYNOPSIS
+.B checkbox-gtk [options]
+.SH DESCRIPTION 
+checkbox-gtk is a graphical tool for system testing. It tests the system, collects hardware information and the results can then be sent to Launchpad.
+.SH OPTIONS
+.TP
+.B \-h or \-\-help
+Print this short usage information on the screen and exit.
+.TP
+.B \-\-version
+Print version information and exit.
+.TP
+.B \-l FILE or \-\-log=FILE
+The file to write the collected information to.
+.TP
+.B \-\-log\-level=LOG_LEVEL
+Set log level. It can have a one of debug, info, warning, error or critical values.
+.TP
+.B \-c CONFIG or \-\-config=CONFIG
+Configuration override parameters.
+.SH AUTHORS
+This manpage has been written by Alex Lourie (djay.il (at) gmail.com)
