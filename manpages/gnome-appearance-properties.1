@@ -1,0 +1,35 @@
+.TH gnome-appearance-properties 1 "August 24, 2009" "version 0.1"
+.SH NAME
+\fBgnome\-appearance\-properties\fP \- a graphical application for customizing the look and feel of the Gnome Desktop.
+.SH SYNOPSIS
+.B gnome\-appearance\-properties
+[\fIOPTIONS\fP] [\fIWALLPAPER\fP]
+.SH DESCRIPTION
+\fBgnome\-appearance\-properties\fP is a graphical preferences tool, that lets you to configure various aspects of how your desktop looks, including Themes, Backgrounds, Fonts, Icons, Interfaces and Effects.
+.SH OPTIONS
+Help Options:
+.TP
+.B \-h, \-\-help
+Show these help options and exit
+.PP
+Application Options:
+.TP
+.B \-i, \-\-install\-theme=filename
+Specify the filename of a theme to install
+.TP
+.B \-p, \-\-show\-page=page             
+Specify the name of the page to show (theme|background|fonts|interface)
+.TP
+.B \-\-display=DISPLAY                
+X display to use
+.SH WALLPAPER
+.TP
+[WALLPAPER] is a simple image file that will automatically be used as wallpaper when running gnome\-appearance\-properties. Use a full, relative path when providing a file name, for example:
+.PP
+.B gnome\-appearance\-properties /home/joe/Pictures/flower.jpg
+.PP
+or
+.PP
+.B cd /home/joe; gnome\-appearance\-properties Pictures/flower.jpg
+.SH AUTHORS
+This manpage has been written by Alex Lourie (djay.il (at) gmail.com)
